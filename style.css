@@ -1,13 +1,14 @@
 
 body{
     font-family: 'Work Sans', sans-serif;
-    /* margin: 0 auto; */
+    margin: 0 auto;
 }
 section{
     width: 85%;
     margin: 0 auto;
 
 }
+
                 /*======================
                 Header design 
                 ===================== */
@@ -59,17 +60,318 @@ header{
     width: 100%;
     margin-bottom: 4.5rem;
 }
+                /*======================
+                Section1: Our Features 
+                ===================== */
+#section1{
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.section1-style{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.section1-image-style{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+#span-style1{
+    color: rgba(114, 114, 114, 1);
+    font-weight: 500;
+}
+#span-style2{
+    color: 700;
+    font-weight: #131313;
+}
+#span-style3{
+    color: #FF900E;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+
+.section1-info button{
+        color: rgba(255, 255, 255, 1);
+        background-color: rgba(255, 144, 14, 1);
+        border: none;
+        border-radius: 7px;
+        font-weight: 600;
+        padding: 15px 27px;
+        margin-top: 30px;
+}
+                /*======================
+                Section2: Features you will love & enjoy
+                ===================== */
+
+.section2{
+    /* height: 1050px; */
+}
+.section2-info h2{
+    border-left: 5px solid #FF900E;
+    padding: 7px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.section2-info h4{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.section2-design{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* flex: 1; */
+    gap: 120px;
+    /* flex-direction: row; */
+}
+.section2-details{
+    /* background-color: #e1e0e0; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.bg-white{
+    /* background-color: white; */
+        /* box-shadow: 0px 0px 5px #aaa;
+        box-shadow: 0px 5px 5px #aaa; */
+        height: 171px;
+        padding: 5px;
+        border-radius: 5px;
+        box-shadow: 5px 5px 5px rgba(192, 192, 192, 0.5);
+        border-left: 0.1px ridge rgb(255, 255, 255);
+        /* box-shadow: -5px 0px 5px #aaa; */
+}
+.bg-white p{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(114, 114, 114, 1);
+}
+
+#relative-button button{
+    position: relative;
+    bottom: 65px;
+    right: 5%;
+    color: white;
+    background-color: rgba(255, 144, 14, 1);
+    /* font-size: 65px; */
+    padding: 15px 22px;
+    border: none;
+    border-radius: 5%;
+}
+#relative-button h1{
+    font-weight: 700;
+    margin-bottom: 0;
+}
+#explore{
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+                /*======================
+                Section3: Features you will love & enjoy
+                ===================== */
+.section3{
+    margin-bottom: 150px;
+}
+.section3 h2{
+    font-weight: 700;
+
+}
+.section3 p{
+    color: rgba(114, 114, 114, 1);
+    margin-top: 24px;
+    margin-bottom: 80px;
+}
+.section3-images{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.img-position{
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    align-items: center;
+    height: 240px;
+    width: 240px;
+    border: 1px solid rgba(255, 144, 14, 1);
+    border-radius: 8px;
+    padding: 10px 5px;
+}
+.img-position img{
+    margin-top: 17%;
+}
+
+.img-position:hover{
+    color: white;
+    background-color: rgba(255, 99, 71, 0.881);
+}
+.img-position p:hover{
+    color: white;
+    font-size: large;
+}
+                /*======================
+                Section4: Our Sponsors
+                ===================== */
+
+.section4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 542px;
+    /* margin-bottom: 50px; */
+}
+.section4 p{
+    text-align: center;
+}
+.section4 h2{
+
+}
+
+                /*======================
+                Section5: Company Images
+                ===================== */
+
+.section5{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+
+
+footer{
+    
+    text-align: center;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 200px;
+}
+footer p{
+    padding: 2%;
+    width: 400;
+    background-color: #FFF4E7;
+}
+                /*=====================
+                Extra Section : Customer Review
+                ======================*/
+.extra-details{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    gap: 2%;
+}
+.extra-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: #E7FBE7;
+    /* background-color: #E7FBE7; */
+    padding: 2%;
+    /* background-color: #7FFFD4; */
+}
+.extra-info:hover{
+    /* background: linear-gradient(to bottom, #E7FBE7, #006400); */
+    background: linear-gradient(to bottom, #01BAEF, #7CFFCB);
+}
+.extra-info img{
+    
+    width: 56px;
+    height: 56px;
+}
+
+#review-title{
+    text-align: center;
+    margin-bottom: 2%;
+    font-weight: 600;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.unfilled{
+    color: #AEAEAE;
+}
+
+
+
+
+
+
+
+button {
+    transition: background-color 0.5s ease;
+}
+
+button:hover{
+    background-color: #FF4500;
+}
 
 /*=====================
  CSS MEDIA QUERY  
 ======================*/
 
 @media only screen and (max-width: 576px){
-    header{
+    body{
         width: 100%;
+        /* margin-left: 0 auto; */
     }
     .navbar ul{
         display: flex;
         flex-direction: column;
     }
+    .section1-style{
+        flex-direction: column;
+        justify-content: center;
+        width: 88%;
+    }
+    .section1-image-style{
+        margin-left: 5%;
+        grid-template-columns: repeat(1, 1fr);
+    } 
+    .section2-design{
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #relative-button img{
+        /* height: 400px; */
+        height: auto;
+        width: 100%;
+        /* object-fit: cover; */
+    }
+    .section3-images{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .section4{
+        width: 100%;
+    }
+    .section4 p{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .section5{
+        display: grid;
+        gap: 15px;
+        /* justify-content: center; */
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .section5 img{
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .extra-details{
+        flex-direction: column;
+        gap: 15px;
+    }
+
 }
+
