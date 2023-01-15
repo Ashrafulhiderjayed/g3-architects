@@ -64,6 +64,12 @@ header{
  CSS MEDIA QUERY  
 ======================*/
 
-@media  screen and (max-width: 576px){
-    
+@media only screen and (max-width: 576px){
+    header{
+        width: 100%;
+    }
+    .navbar ul{
+        display: flex;
+        flex-direction: column;
+    }
 }
